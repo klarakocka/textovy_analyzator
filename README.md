@@ -1,0 +1,1 @@
+# textovy_analyzator
