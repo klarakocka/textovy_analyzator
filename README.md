@@ -4,3 +4,5 @@ print ("hello")
 print("hello")
 
 print("klara")
+
+print ("kocka")
