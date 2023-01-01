@@ -115,8 +115,9 @@ print(f"The sum of all the numbers is {suma_cisel}.")
 print(cara, "\n", cara)
 
 
-horni_nadpis_tabulky = "LEN | OCCURENCES   |NR"
+horni_nadpis_tabulky = "LEN     |OCCURENCES         |NR"
 print(horni_nadpis_tabulky)
+
 
 pocet_delek = {}  
 for slovo in pocet_slov:  
@@ -124,4 +125,5 @@ for slovo in pocet_slov:
     pocet_delek[delka_slova] = pocet_delek.get(delka_slova, 0) + 1
 
 for klic in sorted(pocet_delek.keys()):
-    print(klic, "\t|", "♡" * pocet_delek[klic], "|", pocet_delek[klic])
+    width = 18 - int(pocet_delek[klic]) 
+    print(klic, "\t|", "♡" * pocet_delek[klic], "|".rjust(width), pocet_delek[klic])
