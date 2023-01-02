@@ -1,5 +1,5 @@
 """
-projekt_1.py: prvni projekt do Engeto Online Python Akademie
+textovyanalfinverze.py: prvni projekt do Engeto Online Python Akademie
 
 author: Klara Kocikova
 email: klara_hamplova@seznam.cz
