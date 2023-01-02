@@ -16,9 +16,9 @@ users = {"bob": "123", "ann": "pass123", "mike": "password123", "liz": "pass123"
 print(cara)
 
 if users.get(username) == password:
-    print("Welcome to the app", username, "\nWe have 3 texts to be analyzed.")
+    print(f"Welcome to the app, {username}.","\nWe have 3 texts to be analyzed.")
 else:
-    print("unregistered user, terminating the program...")
+    print("Unregistered user, terminating the program...")
     quit()
 
 
